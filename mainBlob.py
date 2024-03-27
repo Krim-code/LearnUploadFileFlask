@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 import os
 import base64
-
+print()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
